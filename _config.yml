@@ -1,10 +1,11 @@
-title: Nighthawk Pages 
-description: "Class of 2025"
-owner_name: John Mortensen
+title: "Shuban CSA"
+description: "Shuban's Computer Science A Portfolio"
+owner_name: Shuban Pal
 github_username: nighthawkcoders
 github_repo: "student_2025" 
 baseurl: "/student_2025"
 future: true
+url: "https://shuban-789.github.io/Shuban-CSA/"
 remote_theme: jekyll/minima
 minima:
   skin: dark
