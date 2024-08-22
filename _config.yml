@@ -2,8 +2,8 @@ title: "Shuban CSA"
 description: "Shuban's Computer Science A Portfolio"
 owner_name: Shuban Pal
 github_username: nighthawkcoders
-github_repo: "student_2025" 
-baseurl: "/student_2025"
+github_repo: "Shuban-CSA" 
+baseurl: "/Shuban-CSA"
 future: true
 url: "https://shuban-789.github.io/Shuban-CSA/"
 remote_theme: jekyll/minima
