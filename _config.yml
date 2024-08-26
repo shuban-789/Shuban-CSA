@@ -1,7 +1,7 @@
 title: "Shuban CSA"
 description: "Shuban's Computer Science A Portfolio"
 owner_name: Shuban Pal
-github_username: nighthawkcoders
+github_username: shuban-789
 github_repo: "Shuban-CSA" 
 baseurl: "/Shuban-CSA"
 future: true
@@ -10,7 +10,7 @@ remote_theme: jekyll/minima
 minima:
   skin: dark
   social_links:
-    - { platform: github, user_url: "https://github.com/nighthawkcoders"}
+    - { platform: github, user_url: "https://github.com/shuban-789" }
     - { platform: x, user_url: "https://x.com/NighthawkCoding/" }
     - { platform: youtube, user_url: "https://www.youtube.com/@nighthawkcodingsociety2868" } 
 # remote_theme: pages-themes/midnight@v0.2.0
