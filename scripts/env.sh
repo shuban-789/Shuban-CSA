@@ -5,5 +5,5 @@
 cat <<EOF > /tmp/variables.sh
 export project_dir=$HOME/CSA
 export project=\$project_dir/Shuban-CSA
-export project_repo="https://github.com/nighthawkcoders/portfolio_2025.git"
+export project_repo="https://github.com/shuban-789/Shuban-CSA.git"
 EOF
