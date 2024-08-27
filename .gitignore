@@ -10,6 +10,6 @@ nohup.out
 Gemfile.lock
 node_modules
 .DS_Store
-.env
+env/
 _posts/2024-06-25-RDS-and-Flask-Setup-
-venv/
+.venv/
