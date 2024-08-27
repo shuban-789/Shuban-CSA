@@ -9,4 +9,72 @@ hide: true
 
 <p> Some of my interests include cybersecurity, computer science, and math. I am fluent in Python, Go, and C. Some of my hobbies are playing video games, coding, and robotics. 
 
-<img align="center" src="https://skillicons.dev/icons?i=py,c,go,swift,js,docker,nginx,redhat,vscode,linux,bash,aws,blender,pytorch,tensorflow" />
+<img src="https://raw.githubusercontent.com/shuban-789/Markdown-images/main/minecraft.png" width="450">
+
+
+<p>One of my coolest projects: <br>
+
+Bluefox Remote Access Tool <br></p>
+<a href="https://github.com/shuban-789/bluefox" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=shuban-789&repo=bluefox&theme=transparent" width="450"></a>
+<br>
+
+<img align="center" src="https://go-skill-icons.vercel.app/api/icons?i=py,go,c,rust,java,docker,nginx,vscode,goland,androidstudio,bash,linux,aws,pytorch,tensorflow" />
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-top: 50px;
+        }
+        input[type="number"] {
+            width: 50px;
+            font-size: 16px;
+        }
+        button {
+            font-size: 16px;
+            padding: 5px 10px;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <p>I'm thinking of a number between 1 and 100. Can you guess it?</p>
+    <input type="number" id="guessInput" min="1" max="100" placeholder="Enter a number">
+    <button onclick="checkGuess()">Guess</button>
+    <div class="result" id="result"></div>
+
+    <script>
+        let secretNumber = Math.floor(Math.random() * 100) + 1;
+        let attempts = 0;
+
+        function checkGuess() {
+            let userGuess = parseInt(document.getElementById('guessInput').value);
+            let result = document.getElementById('result');
+            attempts++;
+
+            if (isNaN(userGuess) || userGuess < 1 || userGuess > 100) {
+                result.textContent = "Please enter a valid number between 1 and 100.";
+                return;
+            }
+
+            if (userGuess === secretNumber) {
+                result.textContent = `Congratulations! You guessed it in ${attempts} attempts.`;
+            } else if (userGuess < secretNumber) {
+                result.textContent = "Too low! Try again.";
+            } else {
+                result.textContent = "Too high! Try again.";
+            }
+        }
+    </script>
+</body>
+</html>
