@@ -9,7 +9,7 @@ hide: true
 
 <p> Some of my interests include cybersecurity, computer science, and math. I am fluent in Python, Go, and C. Some of my hobbies are playing video games, coding, and robotics. 
 
-<img src="https://raw.githubusercontent.com/shuban-789/Markdown-images/main/minecraft.png" width="450">
+<br>
 
 <p>One of my coolest projects: <br>
 
@@ -17,7 +17,11 @@ Bluefox Remote Access Tool <br></p>
 <a href="https://github.com/shuban-789/bluefox" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=shuban-789&repo=bluefox&theme=transparent" width="450"></a>
 <br>
 
+<br>
+
 <img align="center" src="https://go-skill-icons.vercel.app/api/icons?i=py,go,c,rust,java,docker,nginx,vscode,goland,androidstudio,bash,linux,aws,pytorch,tensorflow" />
+
+<br>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
