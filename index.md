@@ -17,9 +17,6 @@ Bluefox Remote Access Tool <br></p>
 <a href="https://github.com/shuban-789/bluefox" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=shuban-789&repo=bluefox&theme=transparent" width="450"></a>
 <br>
 
-<br>
-
-<img align="center" src="https://go-skill-icons.vercel.app/api/icons?i=py,go,c,rust,java,docker,nginx,vscode,goland,androidstudio,bash,linux,aws,pytorch,tensorflow" />
 
 <br>
 
