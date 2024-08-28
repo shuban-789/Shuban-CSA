@@ -6,4 +6,4 @@ permalink: /about/
 
 Coder | Scientist | Mathematician
 
-![pfp](assets/images/image.png)
+<img src="assets/images/pfp.png">
