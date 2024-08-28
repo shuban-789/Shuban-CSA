@@ -1,7 +1,7 @@
 ---
 layout: base
-title: Student Home 
-description: Home Page
+title: Shuban CSA Home
+description: Main hub for Shuban's CSA notebook
 hide: true
 ---
 
