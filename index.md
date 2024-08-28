@@ -7,18 +7,23 @@ hide: true
 
 # Hi, I'm Shuban 👋
 
-<p> Some of my interests include cybersecurity, computer science, and math. I am fluent in Python, Go, and C. Some of my hobbies are playing video games, coding, and robotics. 
+<h2 style="text-align: left;">Interests</h2>
+<p style="text-align: left;"> - Robotics<p>
+<p style="text-align: left;"> - Cybersecurity<p>
+<p style="text-align: left;"> - Socket Programming<p>
+<p style="text-align: left;"> - Binary Exploitation<p>
+<p style="text-align: left;"> - Simulations<p>
 
-<br>
+<div style="text-align: left;">
 
-<p>One of my coolest projects: <br>
+<h2>Projects</h2>
 
-Bluefox Remote Access Tool <br></p>
+<p>One of my coolest projects: Bluefox Remote Access Tool <br>
+
 <a href="https://github.com/shuban-789/bluefox" target="_blank"><img src="assets/images/download.svg" width="450"></a>
 <br>
 
-
-<br>
+<h2>Game</h2>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -42,9 +47,14 @@ Bluefox Remote Access Tool <br></p>
         font-size: 18px;
         font-weight: bold;
     }
+    .input-box {
+        width: 400px;  /* Automatic width */
+        min-width: 200px; /* Minimum width */
+        height: 30px;  /* Fixed height */
+    }
 </style>
 <p>I'm thinking of a number between 1 and 100. Can you guess it?</p>
-<input type="number" id="guessInput" min="1" max="100" placeholder="Enter a number">
+<input type="number" id="guessInput" min="1" max="100" placeholder="Enter a number" width="200px">
 <button onclick="checkGuess()">Guess</button>
 <div class="result" id="result"></div>
 
