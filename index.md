@@ -14,7 +14,7 @@ hide: true
 <p>One of my coolest projects: <br>
 
 Bluefox Remote Access Tool <br></p>
-<a href="https://github.com/shuban-789/bluefox" target="_blank"><img src="https://github-readme-stats.vercel.app/api/pin/?username=shuban-789&repo=bluefox&theme=transparent" width="450"></a>
+<a href="https://github.com/shuban-789/bluefox" target="_blank"><img src="assets/images/download.svg" width="450"></a>
 <br>
 
 
