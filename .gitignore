@@ -1,4 +1,5 @@
 *.pyc
+_site
 __pycache__/
 _posts/**/*_IPYNB_2_.md
 _posts/**/*_GithubIssue_.md
