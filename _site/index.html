@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Shuban CSA Home | Shuban CSA</title>
+<meta name="generator" content="Jekyll v3.9.3" />
+<meta property="og:title" content="Shuban CSA Home" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Main hub for Shuban’s CSA notebook" />
+<meta property="og:description" content="Main hub for Shuban’s CSA notebook" />
+<link rel="canonical" href="http://localhost:4100/Shuban-CSA/" />
+<meta property="og:url" content="http://localhost:4100/Shuban-CSA/" />
+<meta property="og:site_name" content="Shuban CSA" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Shuban CSA Home" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","description":"Main hub for Shuban’s CSA notebook","headline":"Shuban CSA Home","name":"Shuban CSA","url":"http://localhost:4100/Shuban-CSA/"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="/Shuban-CSA/assets/css/style.css?v=fd732506460f1288281f2ff4d3f8efa1406d561f">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/Shuban-CSA/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+    <header class="page-header" role="banner">
+      <h1 class="project-name">Shuban CSA Home</h1>
+      <h2 class="project-tagline">Main hub for Shuban's CSA notebook</h2>
+      <a href="/Shuban-CSA/" class="btn">Nighthawk Pages</a><a href="/Shuban-CSA/blogs/" class="btn">Blogs</a><a href="/Shuban-CSA/search/" class="btn">Search</a><a href="/Shuban-CSA/about/" class="btn">About</a><a href="/Shuban-CSA/README4YML.html" class="btn">Readme</a>
+        <a href="https://github.com/shuban-789/Shuban-CSA" class="btn">View on GitHub</a>
+      
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      <h1 id="hi-im-shuban-">Hi, I’m Shuban 👋</h1>
+
+<h2 style="text-align: left;">Interests</h2>
+<p style="text-align: left;"> - Robotics<p>
+<p style="text-align: left;"> - Cybersecurity<p>
+<p style="text-align: left;"> - Socket Programming<p>
+<p style="text-align: left;"> - Binary Exploitation<p>
+<p style="text-align: left;"> - Simulations<p>
+
+<div style="text-align: left;">
+
+<h2>Projects</h2>
+
+<p>One of my coolest projects: Bluefox Remote Access Tool <br />
+
+<a href="https://github.com/shuban-789/bluefox" target="_blank"><img src="assets/images/download.svg" width="450" /></a>
+<br />
+
+<h2>Game</h2>
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Number Guessing Game</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        padding-top: 50px;
+    }
+    input[type="number"] {
+        width: 50px;
+        font-size: 16px;
+    }
+    button {
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+    .result {
+        margin-top: 20px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .input-box {
+        width: 400px;  /* Automatic width */
+        min-width: 200px; /* Minimum width */
+        height: 30px;  /* Fixed height */
+    }
+</style>
+<p>I'm thinking of a number between 1 and 100. Can you guess it?</p>
+<input type="number" id="guessInput" min="1" max="100" placeholder="Enter a number" width="200px" />
+<button onclick="checkGuess()">Guess</button>
+<div class="result" id="result"></div>
+
+<script>
+    let secretNumber = Math.floor(Math.random() * 100) + 1;
+    let attempts = 0;
+
+    function checkGuess() {
+        let userGuess = parseInt(document.getElementById('guessInput').value);
+        let result = document.getElementById('result');
+        attempts++;
+
+        if (isNaN(userGuess) || userGuess < 1 || userGuess > 100) {
+            result.textContent = "Please enter a valid number between 1 and 100.";
+            return;
+        }
+
+        if (userGuess === secretNumber) {
+                result.textContent = `Congratulations! You guessed it in ${attempts} attempts.`;
+        } else if (userGuess < secretNumber) {
+                result.textContent = "Too low! Try again.";
+        } else {
+            result.textContent = "Too high! Try again.";
+        }
+    }
+</script>
+</p></div></p></p></p></p></p></p></p></p></p></p>
+
+
+      <footer class="site-footer">
+        
+          <span class="site-footer-owner"><a href="https://github.com/shuban-789/Shuban-CSA">Shuban-CSA</a> is maintained by <a href="https://github.com/shuban-789">shuban-789</a>.</span>
+        
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+      </footer>
+    </main>
+  </body>
+</html>
+</html>
