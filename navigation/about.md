@@ -17,9 +17,12 @@ permalink: /about/
 
 <img align="center" src="https://go-skill-icons.vercel.app/api/icons?i=py,go,c,rust,java,docker,nginx,vscode,goland,androidstudio,bash,linux,aws,pytorch,tensorflow" />
 
-##  My Cultural Background
+## 🌏 My Cultural Background
 
 - 2nd generation Indian American
 - I have lived in San Diego all my life
+- My favorite Indian dish is butter paneer with garlic naan
 
-## About Me Quiz (TODO)
+![naan-paneer](image-3.png)
+
+## About Me Quiz
