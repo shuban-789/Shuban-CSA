@@ -4,6 +4,6 @@ title: About
 permalink: /about/
 ---
 
-Coder | Scientist | Mathematician
+# Coder | Scientist | Mathematician
 
-<img src="assets/images/pfp.png">
+![about-gallery](image-2.png)
