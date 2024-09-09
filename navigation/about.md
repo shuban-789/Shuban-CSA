@@ -79,5 +79,13 @@ comments: true
             document.getElementById("result").innerText = "Your score: " + score + "/4";
         }
     </script>
+
+<script src="https://utteranc.es/client.js"
+        repo="trevorhuang1/csa_blog"
+        issue-term="pathname"
+        theme="github-light"
+        crossorigin="anonymous"
+        async>
+</script>
 </body>
 </html>
