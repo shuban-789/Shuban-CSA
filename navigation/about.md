@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Shuban: Coder | Scientist | Mathematician
+title: About Me
 permalink: /about/
 ---
 
