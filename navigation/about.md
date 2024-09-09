@@ -2,6 +2,7 @@
 layout: page
 title: About Me
 permalink: /about/
+comments: true
 ---
 
 ![about-gallery](image-2.png)
