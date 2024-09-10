@@ -61,7 +61,7 @@ comments: true
             <input type="radio" name="q4" value="correct"> Mario Odyssey<br>
             <input type="radio" name="q4" value="wrong3"> Mario Kart 8 Deluxe<br><br>
 
-            <button type="button" onclick="checkAnswers()">Submit</button>
+            <button type="button" onclick="checkAnswers()" type="button" class="button">Submit</button>
         </form>
 
         <p id="result"></p>
