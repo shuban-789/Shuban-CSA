@@ -31,7 +31,8 @@ body {
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  color: $body-text-color;
+  color: #f2f4eb;
+  background-color: #0f162b;
 }
 
 #skip-to-content {
@@ -184,7 +185,7 @@ a {
   }
   
   kbd {
-    background-color: #fafbfc;
+    background-color: #0f162b;
     border: 1px solid #c6cbd1;
     border-bottom-color: #959da5;
     border-radius: 3px;
@@ -210,7 +211,7 @@ a {
     margin-top: 2rem;
     margin-bottom: 1rem;
     font-weight: normal;
-    color: $section-headings-color;
+    color: #23d2ee;
   }
 
   p {
