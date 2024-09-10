@@ -58,8 +58,8 @@ comments: true
             <h3>Q4: What is one game Shuban plays on Nintendo Switch?</h3>
             <input type="radio" name="q4" value="wrong1"> Zelda: Breath of the Wild<br>
             <input type="radio" name="q4" value="wrong2"> Animal Crossing<br>
-            <input type="radio" name="q4" value="correct"> Mario Odyssey<br><br>
-            <input type="radio" name="q4" value="wrong3"> Mario Kart 8 Deluxe<br>
+            <input type="radio" name="q4" value="correct"> Mario Odyssey<br>
+            <input type="radio" name="q4" value="wrong3"> Mario Kart 8 Deluxe<br><br>
 
             <button type="button" onclick="checkAnswers()">Submit</button>
         </form>
