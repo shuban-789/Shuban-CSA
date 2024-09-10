@@ -55,7 +55,7 @@ hide: true
 </style>
 <p>I'm thinking of a number between 1 and 100. Can you guess it?</p>
 <input type="number" id="guessInput" min="1" max="100" placeholder="Enter a number" width="200px">
-<button onclick="checkGuess()">Guess</button>
+<button onclick="checkGuess()" type="button" class="button">Guess</button>
 <div class="result" id="result"></div>
 
 <script>
