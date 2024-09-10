@@ -32,28 +32,28 @@ comments: true
     <title>Shuban's Quiz</title>
 </head>
 <body>
-    <h1>Shuban's "About Me" Quiz</h1>
+    <h1>📝 Shuban's "About Me" Quiz</h1>
     <section>
         <form id="quizForm">
-            <h3>Q1: What is Shuban's favorite Indian dish?</h3>
+            <h3>1️⃣ What is Shuban's favorite Indian dish?</h3>
             <input type="radio" name="q1" value="wrong1"> Garlic Naan and Butter Chicken<br>
             <input type="radio" name="q1" value="wrong2"> Lemon Rice<br>
             <input type="radio" name="q1" value="correct"> Garlic Naan and Butter Paneer<br>
             <input type="radio" name="q1" value="wrong3"> Samosa<br>
 
-            <h3>Q2: What ethnicity is Shuban?</h3>
+            <h3>2️⃣ What ethnicity is Shuban?</h3>
             <input type="radio" name="q2" value="wrong1"> 1st Generation Italian American<br>
             <input type="radio" name="q2" value="wrong2"> 1st Generation Indian American<br>
             <input type="radio" name="q2" value="correct"> 2nd Generation Indian American<br>
             <input type="radio" name="q2" value="wrong3"> 2nd Generation Japanese American<br>
 
-            <h3>Q3: What is not a language which Shuban knows?</h3>
+            <h3>3️⃣ What is not a language which Shuban knows?</h3>
             <input type="radio" name="q3" value="correct"> C++<br>
             <input type="radio" name="q3" value="wrong1"> Python<br>
             <input type="radio" name="q3" value="wrong2"> Go<br>
             <input type="radio" name="q3" value="wrong3"> C<br>
 
-            <h3>Q4: What is one game Shuban plays on Nintendo Switch?</h3>
+            <h3>4️⃣ What is one game Shuban plays on Nintendo Switch?</h3>
             <input type="radio" name="q4" value="wrong1"> Zelda: Breath of the Wild<br>
             <input type="radio" name="q4" value="wrong2"> Animal Crossing<br>
             <input type="radio" name="q4" value="correct"> Mario Odyssey<br>
