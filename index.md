@@ -18,8 +18,6 @@ hide: true
 
 <h2>Projects</h2>
 
-<p>One of my coolest projects: Bluefox Remote Access Tool <br>
-
 <a href="https://github.com/shuban-789/maglev" target="_blank"><img src="assets/images/download.svg" width="450"></a>
 <br>
 
