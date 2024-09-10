@@ -87,7 +87,7 @@
         y="0"
         class="header"
         data-testid="header"
-      >bluefox</text>
+      >maglev</text>
     </g>
       </g>
     
@@ -100,7 +100,7 @@
     
 
     <text class="description" x="25" y="-5">
-      <tspan dy="1.2em" x="25">A Versatile Remote Access Swiss Army Knife</tspan>
+      <tspan dy="1.2em" x="25">A versatile remote access Swiss Army Knife</tspan>
     </text>
 
     <g transform="translate(30, 45)">

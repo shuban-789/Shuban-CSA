@@ -20,7 +20,7 @@ hide: true
 
 <p>One of my coolest projects: Bluefox Remote Access Tool <br>
 
-<a href="https://github.com/shuban-789/bluefox" target="_blank"><img src="assets/images/download.svg" width="450"></a>
+<a href="https://github.com/shuban-789/maglev" target="_blank"><img src="assets/images/download.svg" width="450"></a>
 <br>
 
 <h2>Game</h2>
@@ -41,6 +41,7 @@ hide: true
         font-size: 16px;
         border-radius: 10px;
         height: 32px;
+        text-align: center;
     }
     button {
         font-size: 16px;
@@ -60,7 +61,7 @@ hide: true
     }
 </style>
 <p>I'm thinking of a number between 1 and 100. Can you guess it?</p>
-<input type="number" id="guessInput" min="1" max="100" placeholder="Enter a number" width="400px">
+<input type="number" id="guessInput" min="1" max="100" placeholder="#" width="400px">
 <button onclick="checkGuess()" type="button" class="button">Guess</button>
 <div class="result" id="result"></div>
 
