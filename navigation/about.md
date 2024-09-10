@@ -79,12 +79,4 @@ comments: true
             document.getElementById("result").innerText = "Your score: " + score + "/4";
         }
     </script>
-
-<script src="https://utteranc.es/client.js"
-        repo="shuban-789/Shuban-CSA"
-        issue-term="pathname"
-        theme="github-light"
-        crossorigin="anonymous"
-        async>
-</script>
 </body>
