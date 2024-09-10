@@ -32,7 +32,7 @@ comments: true
     <title>Shuban's Quiz</title>
 </head>
 <body>
-    <h1>📝 Shuban's "About Me" Quiz</h1>
+    <h1>Shuban's "About Me" Quiz 📝</h1>
     <section>
         <form id="quizForm">
             <h3>1️⃣ What is Shuban's favorite Indian dish?</h3>
