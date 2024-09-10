@@ -71,7 +71,7 @@ Q1: Define some literal data.
 Q2: Obtain that data from input versus hard coded.
 
 
-```Java
+```java
 // Hard code literal values
 
 int literalAge = 17;
@@ -79,7 +79,7 @@ String literalFavoriteColor = "blue";
 ```
 
 
-```Java
+```java
 // Input your age
 Scanner scanObj = new Scanner(System.in);  // Create a Scanner object
 System.out.println("Enter age");
@@ -97,7 +97,7 @@ Q1: Describe approache difference between IntByValue and IntByReference.
 Q2: Try to make a changeInt method that change would persist after it is called.  Be careful, this will require a change in approach. 
 
 
-```Java
+```java
 public class IntByValue {
     
     public static void changeInt(int n) {
@@ -118,7 +118,7 @@ IntByValue.main(null);
 ```
 
 
-```Java
+```java
 public class IntByReference {
     private int value;
 

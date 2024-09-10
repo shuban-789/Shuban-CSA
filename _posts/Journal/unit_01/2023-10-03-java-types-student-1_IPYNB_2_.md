@@ -5,7 +5,7 @@ title: Data Types in Java
 author: collin, vinay
 ---
 
-```Java
+```java
 
 ```
 
@@ -17,7 +17,7 @@ author: collin, vinay
 | char      | 16          |
 
 
-```Java
+```java
 public class GreatestValue {
     public static void main(String[] args) {
         System.out.println("Max Integer: " + Integer.MAX_VALUE);
@@ -51,7 +51,7 @@ Some data types, like String, start with a capital letter. This is because they 
 
 
 
-```Java
+```java
 int integer = 7120; //"int" starts with a lowercase
 String string = "abc"; //"String" starts with an uppercase, because it is an object and not a primitive type
 ```
@@ -61,7 +61,7 @@ String string = "abc"; //"String" starts with an uppercase, because it is an obj
 String is the most common reference type. Here is an example of how a String type is really just referencing an object.
 
 
-```Java
+```java
 public class WorseString {
     private char[] charArray;
 
@@ -81,7 +81,7 @@ public class WorseString {
 ```
 
 
-```Java
+```java
 WorseString string = new WorseString("Hello, World!");
 System.out.println(string);
 ```
@@ -92,7 +92,7 @@ System.out.println(string);
 Therefore, these two things are the same:
 
 
-```Java
+```java
 String string = "abc";
 String string = new String("abc");
 ```
@@ -145,7 +145,7 @@ Casting is converting one type of variable to another
 ex: double to int
 
 
-```Java
+```java
 public class Casting {
     public static void main(String[] args) {
         double castTest = 3.2;
@@ -183,13 +183,13 @@ What is a downside of using wrapper classes? Why not always use them?
 <spoiler>Increased memory usage</spoiler> 
 
 
-```Java
+```java
 //This code fails
 ArrayList ArrayList = new ArrayList<int>();
 ```
 
 
-```Java
+```java
 //This code works
 ArrayList ArrayList = new ArrayList<Integer>();
 ```
@@ -197,7 +197,7 @@ ArrayList ArrayList = new ArrayList<Integer>();
 <img src="/VACTQ-Lesson/download.jfif" alt="wrapper" width="400"/>
 
 
-```Java
+```java
 public class Wrappers {
     int age;
     Integer ageWrapper;
@@ -249,7 +249,7 @@ Things you can do with Enums
 * for loops
 
 
-```Java
+```java
 public class EnumTest { 
     enum Units {
     PRIMITVE_DATA_TYPES,

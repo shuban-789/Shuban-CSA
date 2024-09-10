@@ -13,7 +13,7 @@ permalink: /unit1lessonexamples
 In your personal blog you should have a comprehensive example that help you recall Primitive Data Types.
 
 
-```Java
+```java
 public class PrimitiveTypesDemo {
     public static void main(String[] args) {
         // Declare and initialize variables of different primitive types
@@ -56,7 +56,7 @@ PrimitiveTypesDemo.main(null);
 In your Personal Blog you should create a class that captures key reference type in Java.   In fact, there is at least one common reference type we will be testing on in AP CSA that is not represented below.
 
 
-```Java
+```java
 class Person {
     // Fields (attributes) of the Person class
     String name;
@@ -82,7 +82,7 @@ class Person {
 ```
 
 
-```Java
+```java
 public class ReferenceTypesDemo {
     public static void main(String[] args) {
         // Create an instance of the Person class (a custom reference type)

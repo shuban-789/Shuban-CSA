@@ -57,7 +57,7 @@ Here is the complete list of primitive types in Java:
 - **underflow**
 
 
-```Java
+```java
 public class GreatestValue {
     public static void main(String[] args) {
         System.out.println("Max Integer: " + Integer.MAX_VALUE);
@@ -91,7 +91,7 @@ The code below is broken....
 - Output the contents to the Jupyter Terminal
 
 
-```Java
+```java
 ___ zero = 0; //Whole number
 ___ pi = 3.14159; //Decimal values. Floating point numbers.
 ___ iAmTakingCSA = true; //Stores a true of false binary value
