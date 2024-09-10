@@ -26,15 +26,13 @@ comments: true
 
 ![naan-paneer](image-3.png)
 
-## About Me Quiz
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shuban's Quiz</title>
 </head>
 <body>
-    <h1>Shuban's Quiz</h1>
+    <h1>Shuban's "About Me" Quiz</h1>
     <section>
         <form id="quizForm">
             <h3>Q1: What is Shuban's favorite Indian dish?</h3>

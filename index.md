@@ -35,8 +35,12 @@ hide: true
         padding-top: 50px;
     }
     input[type="number"] {
-        width: 50px;
+        background-color: #0f162b;
+        color: #23d2ee;
+        width: 132px;
         font-size: 16px;
+        border-radius: 10px;
+        height: 32px;
     }
     button {
         font-size: 16px;
@@ -48,13 +52,15 @@ hide: true
         font-weight: bold;
     }
     .input-box {
-        width: 400px;  /* Automatic width */
+        width: 500px;  /* Automatic width */
         min-width: 200px; /* Minimum width */
-        height: 30px;  /* Fixed height */
+        height: 22px;  /* Fixed height */
+        background-color: #0f162b;
+        color: #23d2ee;
     }
 </style>
 <p>I'm thinking of a number between 1 and 100. Can you guess it?</p>
-<input type="number" id="guessInput" min="1" max="100" placeholder="Enter a number" width="200px">
+<input type="number" id="guessInput" min="1" max="100" placeholder="Enter a number" width="400px">
 <button onclick="checkGuess()" type="button" class="button">Guess</button>
 <div class="result" id="result"></div>
 
