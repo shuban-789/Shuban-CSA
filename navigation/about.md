@@ -81,7 +81,7 @@ comments: true
     </script>
 
 <script src="https://utteranc.es/client.js"
-        repo="shuban-789"
+        repo="shuban-789/Shuban-CSA"
         issue-term="pathname"
         theme="github-light"
         crossorigin="anonymous"
