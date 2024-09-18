@@ -12,6 +12,79 @@ comments: true
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Method Golf</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .game-container {
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 30px;
+            border-radius: 10px;
+            width: 400px;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #2c3e50;
+        }
+        h2 {
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            color: #3498db;
+        }
+        p {
+            font-size: 1.1em;
+            margin-bottom: 15px;
+            color: #34495e;
+        }
+        input {
+            width: calc(100% - 20px);
+            padding: 10px;
+            font-size: 1em;
+            border: 2px solid #3498db;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            outline: none;
+            transition: border-color 0.3s;
+        }
+        input:focus {
+            border-color: #2980b9;
+        }
+        button {
+            background-color: #3498db;
+            color: white;
+            padding: 10px 20px;
+            font-size: 1em;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+        .feedback {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #e74c3c;
+            margin-top: 15px;
+        }
+        .correct {
+            color: #2ecc71;
+        }
+        .hidden {
+            visibility: hidden;
+        }
+    </style>
 </head>
 <body>
     <div class="game-container">
@@ -22,7 +95,7 @@ comments: true
             <p id="hint">Call the method with: <code>(1, 2)</code></p>
             <input type="text" id="user-input" placeholder="Enter your function call here">
             <button onclick="checkAnswer()">Submit</button>
-            <div id="feedback" class="feedback"></div>
+            <div id="feedback" class="feedback hidden"></div>
         </div>
     </div>
 
@@ -69,22 +142,28 @@ comments: true
             document.getElementById('hint').innerHTML = level.hint;
             document.getElementById('user-input').value = '';
             document.getElementById('feedback').textContent = '';
+            document.getElementById('feedback').classList.add('hidden');
         }
 
         function checkAnswer() {
             const userInput = document.getElementById('user-input').value.trim();
             const correctCall = levels[currentLevel].correctCall;
 
+            const feedbackEl = document.getElementById('feedback');
             if (userInput === correctCall) {
-                document.getElementById('feedback').textContent = 'Correct! Hole in one!';
+                feedbackEl.textContent = 'Correct! Hole in one!';
+                feedbackEl.classList.remove('hidden', 'feedback');
+                feedbackEl.classList.add('correct');
                 currentLevel++;
                 if (currentLevel < levels.length) {
                     setTimeout(loadLevel, 1000); // load next level after 1 second
                 } else {
-                    document.getElementById('feedback').textContent = 'Congratulations! You completed all levels!';
+                    feedbackEl.textContent = 'Congratulations! You completed all levels!';
                 }
             } else {
-                document.getElementById('feedback').textContent = 'Incorrect! Try again.';
+                feedbackEl.textContent = 'Incorrect! Try again.';
+                feedbackEl.classList.remove('hidden', 'correct');
+                feedbackEl.classList.add('feedback');
             }
         }
 
