@@ -12,38 +12,6 @@ comments: true
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Method Golf</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            background-color: #f4f4f4;
-        }
-        .game-container {
-            margin-top: 50px;
-        }
-        .level-box {
-            background-color: #ffffff;
-            padding: 20px;
-            margin: 20px auto;
-            width: 60%;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-        }
-        input {
-            width: 80%;
-            padding: 10px;
-            margin: 10px 0;
-            font-size: 16px;
-        }
-        button {
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-        }
-        .feedback {
-            margin-top: 20px;
-            font-weight: bold;
-        }
-    </style>
 </head>
 <body>
     <div class="game-container">
