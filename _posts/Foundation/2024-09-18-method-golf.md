@@ -13,16 +13,6 @@ comments: true
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Method Golf</title>
     <style>
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f0f0f0;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
         .game-container {
             background-color: #fff;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
