@@ -6,7 +6,6 @@ type: issues
 comments: true
 ---
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -14,27 +13,12 @@ comments: true
     <title>Method Golf</title>
     <style>
         .game-container {
-            background-color: #fff;
+            background-color: #000000;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             padding: 30px;
             border-radius: 10px;
             width: 400px;
             text-align: center;
-        }
-        h1 {
-            font-size: 2em;
-            margin-bottom: 20px;
-            color: #2c3e50;
-        }
-        h2 {
-            font-size: 1.5em;
-            margin-bottom: 15px;
-            color: #3498db;
-        }
-        p {
-            font-size: 1.1em;
-            margin-bottom: 15px;
-            color: #34495e;
         }
         input {
             width: calc(100% - 20px);
