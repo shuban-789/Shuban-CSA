@@ -28,7 +28,7 @@ authors: Shuban Pal
 Write a code to declare and initialize a 2D array that stores the following matrix: 1 2 3 4 5 6 7 8 9
 
 
-```Java
+```java
 public class ArrayPractice {
     public static void main(String[] args) {
         int[][] matrix = {
@@ -50,7 +50,7 @@ ArrayPractice.main(null)
 Write the code to change the element “Java” to “Programming”
 
 
-```Java
+```java
 String[][] hack = {
     {"Hello", "World"},
     {"Java", "Array"}
@@ -86,7 +86,7 @@ The code initializes a 2D array of the `int` type with elements which are of the
 Fix is below 🥔
 
 
-```Java
+```java
 String[][] exampleArray = {
     {"Hello", "World"},
     {"Java", "Array"}
@@ -183,7 +183,7 @@ DM me @shubuntu on Discord if this is confusing and I will give an answer ont he
 An array called find is shown below. In this popcorn hack, I want you to loop through the numbers until you get to the number that doesn’t belong (55). Then print that number along with which row and column it is located in.
 
 
-```Java
+```java
 public class Main {
     public static void main(String[] args) {
         int find[][] = {
@@ -212,7 +212,7 @@ Main.main(null);
 Create your own 2D array and use either binary search or linear search. (maybe both 😏 )
 
 
-```Java
+```java
 public class Main {
     private static int[] linear_search(int[][] matrix, int target) {
         for (int x = 0; x < matrix.length; x++) {
@@ -295,7 +295,7 @@ Main.main(null);
 Write a code that performs global sorting on your own 2D array. (The comments said to copy paste my old search algorithms)
 
 
-```Java
+```java
 public class PopcornHack {
     public static void main(String[] args) {
         int[][] array = {
@@ -355,7 +355,7 @@ public class PopcornHack {
 Write a program to search through a 2d array to find the grade for John. You will be given a list of students and their grades and you must find the grade of John. If a student is not in the list, then return “Student not found”.
 
 
-```Java
+```java
 public class GradeSearch {
     public static String searchGrade(String[][] grades, String name) {
         for (int i = 0; i < grades.length; i++) {
@@ -428,7 +428,7 @@ https://www.a1k0n.net/2011/07/20/donut-math.html
 Code is below and should shut off after 10 seconds. It is a bit wonky on Jupyter. Yes the donut actually spins.
 
 
-```Java
+```java
 import java.util.Arrays;
 
 final int screen_size = 40;
