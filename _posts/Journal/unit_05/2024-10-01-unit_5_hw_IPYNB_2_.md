@@ -30,7 +30,7 @@ Write a Student class. - Each student has a name - Each student has a score (out
 Check which student passes (write a class header, instance variables, constructors, and methods)
 
 
-```Java
+```java
 public class Student {
     private String name;
     private int score;
@@ -97,7 +97,7 @@ if (student1.pass()) {
 - Create an object and print the variable
 
 
-```Java
+```java
 class harkiratPrisoner {
     public String name;
     public int age;
@@ -132,7 +132,7 @@ Using the code you wrote before (you did do the previous popcorn hack… right?)
 Also, you don’t actually have to use your previous code. I just thought it would be a good template.
 
 
-```Java
+```java
 class harkiratPrisoner {
     public String name;
     public int age;
@@ -175,7 +175,7 @@ prisoner.getInfo();
 Gru is preparing for his big mission to steal the moon, and he needs to assign his minions various tasks based on their skills. Create a new getter method called skillLevel and print out the Minion’s skillLevelMinion class with the attributes name, task, and skillLevel. Implement some getter accessor methods, and then create a Minion object to retrieve its values.
 
 
-```Java
+```java
 public class Minion {
     private String name;
     private String task;
@@ -226,7 +226,7 @@ System.out.println(Stuart.getskillLevel());
 Return all the instance variables in Minion so that we can directly print the object values of the minion Kevin.
 
 
-```Java
+```java
 public class Minion
 {
     // Instance variables
@@ -279,7 +279,7 @@ Make your own class with your own getter method
 Mutators: wait a minute, a “mutator” is a type of mutator method??? Yeah, Java is kinda wacky like that. Try not to think about it much. Anyways… these methods let you mutate data (basically change it). They can be called “set” methods or “setters.”
 
 
-```Java
+```java
 public class Food {
     public String name;
     public int calories;
@@ -324,7 +324,7 @@ pizzaSlice.getInfo();
 Make your own class with your own setter method
 
 
-```Java
+```java
 public class Food {
     public String name;
     public int calories;
@@ -391,7 +391,7 @@ Make your own class with:
 Create an object and interact with it! Make sure you use both your setter and getter methods at least once.
 
 
-```Java
+```java
 public class Food {
     public String name;
     public int calories;
@@ -461,7 +461,7 @@ System.out.println(pizzaSlice.getDesc());
 - Keep it minion themed and fun!
 
 
-```Java
+```java
 import java.util.ArrayList;
 import java.util.List;
 
@@ -544,7 +544,7 @@ public class Main {
 Dr. Nefario is busy assigning work for the minions, and he needs your help to organize his group. Your mission is to write and implement a Java classes for each minion which includes their name, gadgets, personality, and more. Get ready to make Dr. Nefario’s life easier and keep the minions organized!
 
 
-```Java
+```java
 import java.util.ArrayList;
 import java.util.List;
 
@@ -628,7 +628,7 @@ public class Main {
 Look at some of the code I’ve commented out and try experimenting with gadgetsList if you want. Otherwise, just make a static variable that serves a purpose in the program.
 
 
-```Java
+```java
 import java.util.ArrayList;
 import java.util.List;
 
@@ -700,7 +700,7 @@ public class Main {
 Dr. Nefario and Gru need to calculate the cost of their equipment to remain under the budget for this year! Add a second parameter to the Gadget constructor to include cost for Gadget instances, and make a static method to calculate the price of all gadgets that have been made so far.
 
 
-```Java
+```java
 import java.util.ArrayList;
 import java.util.List;
 
@@ -797,7 +797,7 @@ Popcorn Hack (1)
 Figure out why the happiness level and the energy level is not showing up the way we want it to. First one to do so will get a high five from Trevor Huang.
 
 
-```Java
+```java
 public class Minion {
     private int happinessLevel;
     private int energyLevel;
@@ -830,7 +830,7 @@ public class Minion {
 The Minions are preparing for a big event where the tallest and fastest minion will get to assist Gru on his next mission! You’ve been called in as the official “Minion Trainer” to help compare the minions. The goal is to see which minion is more prepared for the mission.
 
 
-```Java
+```java
 import java.util.ArrayList;
 import java.util.List;
 
@@ -937,7 +937,7 @@ A method calculateCircumference(): have this calculate the circumference of a ci
 (hint: use Math.PI for ‘π’)
 
 
-```Java
+```java
 class MinionPancake {
     private double radius;
 
@@ -972,7 +972,7 @@ Gru has just recently stopped El Macho from destroying the world. But now, Gru n
 
 
 
-```Java
+```java
 import java.util.ArrayList;
 import java.util.List;
 
@@ -1052,7 +1052,7 @@ Now Gru needs you to make a default constructor for all the NPC minions. Assign 
 
 
 
-```Java
+```java
 import java.util.ArrayList;
 import java.util.List;
 
@@ -1145,7 +1145,7 @@ Now please make a parameterized constructor to create the main-character minions
 
 
 
-```Java
+```java
 import java.util.ArrayList;
 import java.util.List;
 
@@ -1214,7 +1214,7 @@ public class Minion {
 Create three minions and print out their values(color, name, energy levels, gadgets, hair, height)
 
 
-```Java
+```java
 import java.util.ArrayList;
 import java.util.List;
 
@@ -1282,7 +1282,7 @@ public class Minion {
 Gru wants to make sure his workers are not overworked as per OSHA. So, Gru wants you to print out the average energy levels of all his Minions. (Hint: you should use static variables)
 
 
-```Java
+```java
 import java.util.ArrayList;
 import java.util.List;
 
@@ -1367,7 +1367,7 @@ public class Minion {
 Dr. Nefario is trying to assign a recovery time for each minion! Minions who were purple and got cured are very tired, and so are a lot of minions with low energy levels. Create a simple algorithm to calculate how long each minion needs to recover based on their color and energy levels.
 
 
-```Java
+```java
 import java.util.ArrayList;
 import java.util.List;
 
@@ -1458,7 +1458,7 @@ I present to you... 2D Matrix Multiplication using Objects and Classes (Unit 8+ 
 
 
 
-```Java
+```java
 class Matrix {
     private int[][] data;
     private int rows;
