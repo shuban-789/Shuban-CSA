@@ -8,6 +8,18 @@ comments: True
 
 # Sprint 2 Review Ticket
 
+## The Beginning
+
+My main goal for this lesson was to improve my soft skills through the way that I presented topics to my class. There is something which my sister said which inspired me.
+
+She talked about how one of the most crucial things she learned from Mr. M was the difference between Steve Wozniak and Steve Jobs. Would I want to just be behind the scenes and code all day, or be able to present myself in a flashy and cool way to make what I have to say presentable?
+
+The answer was both. I believe this trimester I already had the qualities of Steve Wozniak as early this year and this summer I was advancing my Java knowledge.
+
+This sprint, my goal was to unlock my inner Steve Jobs.
+
+![stevejobs](image.png)
+
 ## Section 1: Lesson Review
 
 For this sprint 2 unit, my team and I taught Unit 2 of CollegeBoard's AP Computer Science A course. In this Unit I made the section which tought Non-Void methods and method signatures. One highlihgt from my lesson was my development of the method golf game.
@@ -179,7 +191,7 @@ In terms of grading, this was my team's philisophy:
 
 In terms of what would impress us, my team was transparent in the sense that we would give extra points based on originality, effort, and output. This was all done while making sure that the average is intact to prevent grade inflation.
 
-## Section 3: Homework Review
+## Section 3: Homework and Understanding Review
 
 In terms of my homework, these are somethings I did well but some things I could also improve upon
 
@@ -191,6 +203,15 @@ In terms of my homework, these are somethings I did well but some things I could
 ❌ Could Improve Upon:
 1. 🙁 I submitted one homework late! What is the point of putitng in so much effort if what I submitted got late credit??
 2. 🙁 For the last two hacks, I forgot to make a sort of section menu on my homework page. I just don't think it would be fair for graders to have to hunt through 1 student's homework
+
+### Unit Takeaways:
+
+- Unit 1:
+- Unit 2:
+- Unit 3: 
+- Unit 4:
+- Unit 5:
+
 
 ### Favorite Memory from Homework: The Spinning Donut 🍩
 
@@ -298,36 +319,29 @@ while (System.currentTimeMillis() - startTime < duration) {
 }
 ```
 
-
-## Closing Remarks
-
-Overall, I feel like this Sprint 1 was very challenging for me in the sense that I knew I had to improve on soft skills. I tried to do this by talking to the class as I would explain Java to a friend as oposed to how I would explain Java in a job interview. 
-
-## Self Grade and Evidence
-
-# Lesson Building
+## Lesson Building
 
 | **Assignment**             | **Points**    | **Grade** | **Evidence** |
 |----------------------------|---------------|-----------|--------------|
-| Pull Request (Integration) | 2             |  1.8        |  ![image](https://github.com/user-attachments/assets/ea5f32fc-4e06-48cb-9d41-e01d6e8efc23) |
-| Relevancy Checklist (Peer) | 2             |  Avg = 80/90 --> 1.78/2         | https://shuban-789.github.io/Shuban-CSA/2024/09/12/Unit_2_part2_IPYNB_2_.html |
-| Lesson (Group)             | 1             | 0.93         | https://nighthawkcoders.github.io/portfolio_2025/csa/unit2/period3/home/            |
-| Homework, Popcorn Hacks    | 1 x 7  (excluding unit 2, my unit)       |  0.91+0.97+0.9738+0.85+0.9+0.91+TBD         | https://docs.google.com/spreadsheets/d/1sGQtZm9GI2Rze5F7Eh_P1CMNO8Fyag4bCtOT0ddARmc/edit?gid=0#gid=0 (Link to all homework grades, each grade is on the spreadsheet)  |
-| Individual Contribution    | 1             |  1         |  https://github.com/Crusaders-of-FreeBSD/CoFBSD-Team-Teaches/commits/main?author=shuban-789            |
-| Personal Notebooks / Blogs | 1             |  0.94         | https://shuban-789.github.io/Shuban-CSA/2024/10/09/sprint2_ticket_IPYNB_2_.html             |
-| Total                      | 14            | 11.9638 + TBD          |  Sum of the scores above (Unit 3 people have not graded me yet)        |
+| Pull Request (Integration) | 2             |  1.8        | ![image](https://github.com/user-attachments/assets/ea5f32fc-4e06-48cb-9d41-e01d6e8efc23) |
+| Relevancy Checklist (Peer) | 2             |  Avg = 80/90 --> 1.78/2         | A link to the relevancy peer reviewed checklists. They are posted as utterances: https://shuban-789.github.io/Shuban-CSA/2024/09/12/Unit_2_part2_IPYNB_2_.html ![image](https://github.com/user-attachments/assets/dc57143c-50f0-4b4b-a871-778e142189ee) |
+| Lesson (Group)             | 1             | 0.93         | A link to my group's lesson on the portfolio_2025 page: https://nighthawkcoders.github.io/portfolio_2025/csa/unit2/period3/home/  ![image](https://github.com/user-attachments/assets/39aae90a-d9fa-47af-b44e-4d7756c71917)           |
+| Homework, Popcorn Hacks    | 1 x 7  (excluding unit 2, my unit)       |  0.91+0.97+0.9738+0.85+0.9+0.91+0.9         | https://docs.google.com/spreadsheets/d/1sGQtZm9GI2Rze5F7Eh_P1CMNO8Fyag4bCtOT0ddARmc/edit?gid=0#gid=0 (Link to all homework grades, each grade is on the spreadsheet) ![image](https://github.com/user-attachments/assets/66ecf6b8-3d59-4606-af1d-5041a6e7aca2) |
+| Individual Contribution    | 1             |  1         |  My commits on the Team Teach repository: https://github.com/Crusaders-of-FreeBSD/CoFBSD-Team-Teaches/commits/main?author=shuban-789 ![image](https://github.com/user-attachments/assets/e9fb26bb-ad0c-4028-84fd-b5076c92a971)           |
+| Personal Notebooks / Blogs | 1             |  0.94         | A link to my unit summary, my blog also includes all of my homeworks: https://shuban-789.github.io/Shuban-CSA/2024/10/09/sprint2_ticket_IPYNB_2_.html  ![image](https://github.com/user-attachments/assets/53201591-c3ba-4833-ab4d-b7dd9931d972)           |
+| Total                      | 14            | 12.8638          |  Sum of the scores above       |
 
 
 | **Skill**                  | **Points**    | **Grade** | **Evidence** |
 |----------------------------|---------------|-----------|--------------|
-| Work Habits (Analytics)    |   1           | 1         |  ![image](https://github.com/user-attachments/assets/f9f00c19-c1b7-4dd3-8fdd-540759f9c099)| 
-| Team Planning (Issue)      |   1           | 0.92         | ![image](https://github.com/user-attachments/assets/063fae10-7ded-488e-a11e-fe0ff2bd6e28)|
-| Presentation Memories      |   1           | 0.93          | ![image](https://github.com/user-attachments/assets/61af5593-2759-4bdf-a797-344dcdba707d) |
-| Grading and Feedback       |   1           | 0.93          |  https://nitinsandiego.github.io/NitinBstudent_2025/csa/unit6/review-ticket          |
-| Beyond Perfunctory         |   1           | 0.95         | ![image](https://github.com/user-attachments/assets/a5673c4e-9a3b-4cc6-9c48-9e50cf0c7fea)| 
+| Work Habits (Analytics)    |   1           | 1         |  A picture of my CSA github analytics: ![image](https://github.com/user-attachments/assets/f9f00c19-c1b7-4dd3-8fdd-540759f9c099)| 
+| Team Planning (Issue)      |   1           | 0.92         | A picture of my team's KanBan. As you can see I taught the sections about Non-Void Methods and Method Signatures: ![image](https://github.com/user-attachments/assets/063fae10-7ded-488e-a11e-fe0ff2bd6e28)|
+| Presentation Memories      |   1           | 0.93          | ![image](https://github.com/user-attachments/assets/3f70be2a-cd8b-4214-94ba-3cd862d05e55) |
+| Grading and Feedback       |   1           | 0.93          |  ![image](https://github.com/user-attachments/assets/74abc92e-2a3c-4086-b290-244d1ee12b54) https://nitinsandiego.github.io/NitinBstudent_2025/csa/unit6/review-ticket          |
+| Beyond Perfunctory         |   1           | 0.95         | ![image](https://github.com/user-attachments/assets/f8c9ba30-42a6-4b2e-a29a-e11c33fd578c) |
 | Total                      |   5           | 4.73          | Sum of scores above             |
 
-# Relevancy (Self Grade)
+## Relevancy (Self Grade)
 
 | **Assignment**          | **Weightage** | **Grade** | **Comments** |
 |-------------------------|---------------|-----------|--------------|
@@ -339,3 +353,6 @@ Overall, I feel like this Sprint 1 was very challenging for me in the sense that
 | Original an Creative    | 10            | 9.4       | I don't think anyone in the class had a game such as method golf or a game such as the basketball game for our unit which incorporated Java tasks and activities to the lesson. It helped with engagement a Lot.          |
 | Total                  | **90**        | 81.8          |  Overall, I think I tried very hard in this team teach to improve in terms of soft skills and putting my voice out there. I could have still improved in terms of engagement but other than that, I feel like I saw a lot of improvement.            |
 
+## Closing Remarks
+
+Overall, I feel like this Sprint 1 was very challenging for me in the sense that I knew I had to improve on soft skills. I tried to do this by talking to the class as I would explain Java to a friend as oposed to how I would explain Java in a job interview. 
