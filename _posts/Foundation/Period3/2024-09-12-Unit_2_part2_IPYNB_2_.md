@@ -1,13 +1,9 @@
 ---
 layout: post
-title: Unit 2 — Methods
-description: A more in-depth explanation of methods.
-type: collab
-toc: True
-permalink: /csa/unit2/period3/part2/
-menu: nav/CSA_Units/unit2/period3.html
+title: Unit 2 Objects
+description: Unit 2 Objects
+type: issues
 comments: True
-author: Aadit Mathur, Eric Yu, Shuban Pal, Rahul Verma
 ---
 
 ## Section 2.4: Calling a Void Method with Parameters

@@ -1,15 +1,9 @@
 ---
 layout: post
-title: Unit 2 — Using Objects
-description: The homepage for unit 2.
-type: ccc
-toc: True
-permalink: /csa/unit2/period3/home/
-menu: nav/CSA_Units/unit2/period3.html
+title: Unit 2 Objects
+description: Unit 2 Objects
+type: issues
 comments: True
-courses: {'csa': {'week': 5}}
-categories: ['AP CSA']
-author: Aadit Mathur, Eric Yu, Shuban Pal, Rahul Verma
 ---
 
 # Unit 2 - Using Objects
