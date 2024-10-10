@@ -42,11 +42,18 @@ System.out.println("Size of ArrayList: " + fruits.size());
 System.out.println(fruits);
 ```
 
+    Size of ArrayList: 5
+    [Apple, Banana, Cherry, Date, Elderberry]
+
+
 
 ```Java
 fruits.add("Fig");
 System.out.println(fruits);
 ```
+
+    [Apple, Banana, Cherry, Date, Elderberry, Fig]
+
 
 
 ```Java
@@ -54,11 +61,17 @@ fruits.add(2, "Grape");
 System.out.println(fruits);
 ```
 
+    [Apple, Banana, Grape, Cherry, Date, Elderberry, Fig]
+
+
 
 ```Java
 fruits.set(4, "Guava");
 System.out.println(fruits);
 ```
+
+    [Apple, Banana, Grape, Cherry, Guava, Elderberry, Fig]
+
 
 
 ```Java
@@ -66,12 +79,19 @@ fruits.remove(1);
 System.out.println(fruits);
 ```
 
+    [Apple, Grape, Cherry, Guava, Elderberry, Fig]
+
+
 
 ```Java
 String fruitAtIndex3 = fruits.get(3);
 System.out.println("Element at index 3: " + fruitAtIndex3);
 System.out.println(fruits);
 ```
+
+    Element at index 3: Guava
+    [Apple, Grape, Cherry, Guava, Elderberry, Fig]
+
 
 ## Popcorn Hacks 7.3
 
@@ -121,7 +141,7 @@ public class ArrayListHacks {
         for (int value : values) {
             result += value;
         }
-        return 0;
+        return result;
     }
 
     public static void main(String[] args) {
@@ -134,12 +154,15 @@ public class ArrayListHacks {
         nums.add(8);
 
         ArrayListHacks hacks = new ArrayListHacks();
-        hacks.findSum(nums);
+        System.out.println(hacks.findSum(nums));
     }
 }
 
 ArrayListHacks.main(null);
 ```
+
+    19
+
 
 ## Popcorn Hack 6
 
@@ -197,7 +220,15 @@ public class Main {
         }
     }
 }
+
+Main.main(null);
 ```
+
+    Duck D (1.9 kg)
+    Duck B (2.1 kg)
+    Duck A (4.5 kg)
+    Duck C (5.0 kg)
+
 
 ## 7th mini Hack
 
@@ -211,9 +242,18 @@ userData.add("arnaviscool@cool.com");
 
 // arnav please forgive my late submission :pray:
 
+System.out.println(userData.get(0));
+System.out.println(userData.get(1));
+
 userData.clear();
 userData = null;
+
+
 ```
+
+    Arnav Nadar
+    arnaviscool@cool.com
+
 
 ## ArrayList Homework Activity
 
@@ -259,6 +299,9 @@ numbers.add(35);
 System.out.println(numbers);
 ```
 
+    [15, 42, 8, 23, 35]
+
+
 ### Task 2
 
 
@@ -267,6 +310,9 @@ numbers.set(1, 100);
 
 System.out.println(numbers);
 ```
+
+    [15, 100, 8, 23, 35]
+
 
 ### Task 3
 
@@ -277,6 +323,9 @@ numbers.remove(2);
 System.out.println(numbers);
 
 ```
+
+    [15, 100, 23, 35]
+
 
 ### Task 4
 
@@ -290,6 +339,9 @@ if (numbers.contains(30)) {
 
 ```
 
+    30 is not in the ArrayList
+
+
 ### Task 5
 
 
@@ -299,6 +351,12 @@ for (int number : numbers) {
 }
 
 ```
+
+    15
+    100
+    23
+    35
+
 
 ### Task 6
 
@@ -312,12 +370,18 @@ System.out.println(numbers);
 
 ```
 
+    [15, 23, 35, 100]
+
+
 ### Task 7
 
 
 ```Java
 System.out.println("Sorted ArrayList: " + numbers);
 ```
+
+    Sorted ArrayList: [15, 23, 35, 100]
+
 
 ## EXTRA: ArrayList Ascii Art
 
@@ -355,7 +419,16 @@ public class AsciiArtMessage {
     }
 }
 
+AsciiArtMessage.main(null)
+
 ```
+
+    H  H  EEEE  L     L      OOO   
+    H  H  E     L     L     O   O  
+    HHHH  EEE   L     L     O   O  
+    H  H  E     L     L     O   O  
+    H  H  EEEE  LLLL  LLLL   OOO   
+
 
 ## EXTRA: Donut Animation BUT with arraylist
 
