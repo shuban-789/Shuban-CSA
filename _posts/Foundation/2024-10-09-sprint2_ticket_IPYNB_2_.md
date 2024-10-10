@@ -196,7 +196,7 @@ In terms of my homework, these are somethings I did well but some things I could
 
 I created a Java implementation of a spinnign donut animation! It must be run on a java file because the output is updated in real time to create the effect.
 
-![donutmath](image-4.png)
+![image](https://github.com/user-attachments/assets/d67b543f-f1b0-45d9-be44-39689117e9fa)
 
 Inspired by `donut.c` and an article about how it works
 
