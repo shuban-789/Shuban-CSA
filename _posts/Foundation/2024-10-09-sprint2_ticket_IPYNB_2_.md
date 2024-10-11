@@ -10,9 +10,9 @@ comments: True
 
 ## The Beginning
 
-My main goal for this lesson was to improve my soft skills through the way that I presented topics to my class. There is something which my sister said which inspired me.
+My main goal for this lesson was to improve my soft skills through the way that I presented topics to my class.
 
-She talked about how one of the most crucial things she learned from Mr. M was the difference between Steve Wozniak and Steve Jobs. Would I want to just be behind the scenes and code all day, or be able to present myself in a flashy and cool way to make what I have to say presentable?
+I always think of the battle between soft skills and technical skills like Steve Jobs vs Steve Wozniak. But which mentality to follow?
 
 The answer was both. I believe this trimester I already had the qualities of Steve Wozniak as early this year and this summer I was advancing my Java knowledge.
 
@@ -236,6 +236,7 @@ In terms of my homework, these are somethings I did well but some things I could
 - Unit 8 (2D Arrays):
     1. 2D arrays can be treated like matrices
     2. Nexted for loops can be used to iterate through them
+    3. Images can be made using all of these 2D Arrays.
 - Unit 9 (Inheritance):
     1. In a super class, another child class can be declared
     2. The child can inherit traits and attributes from the super class
