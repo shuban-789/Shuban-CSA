@@ -18,7 +18,7 @@ The answer was both. I believe this trimester I already had the qualities of Ste
 
 This sprint, my goal was to unlock my inner Steve Jobs.
 
-![stevejobs](image.png)
+![image](https://github.com/user-attachments/assets/b7f98c12-1ffc-413b-85e1-0e64ba9c0aa5)
 
 ## Section 1: Lesson Review
 
@@ -347,7 +347,7 @@ while (System.currentTimeMillis() - startTime < duration) {
 }
 ```
 
-![memory](image-1.png)
+![image](https://github.com/user-attachments/assets/806f1184-0722-4989-97d1-86cc7846ebf0)
 
 ## Lesson Building
 
