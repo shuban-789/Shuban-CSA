@@ -206,11 +206,39 @@ In terms of my homework, these are somethings I did well but some things I could
 
 ### Unit Takeaways:
 
-- Unit 1:
-- Unit 2:
-- Unit 3: 
-- Unit 4:
-- Unit 5:
+- Unit 1 (Datatypes, the Stack and the Heap):
+    1. Primitive datatypes specify size and information
+    2. The `ints` are stored from -2,147,483,648 to 2,147,483,647. `doubles` can store up to 15 digits
+    3. Reference types refer to objects instead of storing them as datatypes
+    4. The stack is used to store temporary variables (using push and pop), the heap stores via allocation and is used to store things like reference types
+- Unit 2 (Classes and Methods):
+    1. Classes are a way to encapsulate methods
+    2. Classes can also be used as objects
+    3. There are different settings you can give a method using signatures
+    4. Wrapper classes are used to extend functionality of primitive classes
+- Unit 3 (Booleans): 
+    1. Booleans are used to control the flow of logic
+    2. Boolean datatype is true and false
+    3. DeMorgan's law of negation states that A and B is the same as not A or not B
+- Unit 4 (Iteration):
+    1. You can iterate through an array forward using `(int i=0; i < array.length; i++)`
+    2. You can iterate through an array forward using `(int i=array.length; i < 0; i--)`
+- Unit 5 (Writing Classes):
+    1. Classes can be used to store methods or manupulate them
+    2. When writing a class, you may use constructors
+    3. Utilizing getter and setter methods is ideal for changing and monitoring objects
+- Unit 6 (Arrays): 
+    1. An array of ints can be sorted, searching too can be employed
+    2. Some key algorithms are binary search and selection sort
+- Unit 7 (Arraylists):
+    1. ArrayLists in Java automatically resize when elements are added or removed.
+    2. They maintain the order of elements as they were inserted.
+- Unit 8 (2D Arrays):
+    1. 2D arrays can be treated like matrices
+    2. Nexted for loops can be used to iterate through them
+- Unit 9 (Inheritance):
+    1. In a super class, another child class can be declared
+    2. The child can inherit traits and attributes from the super class
 
 
 ### Favorite Memory from Homework: The Spinning Donut 🍩
@@ -319,6 +347,8 @@ while (System.currentTimeMillis() - startTime < duration) {
 }
 ```
 
+![memory](image-1.png)
+
 ## Lesson Building
 
 | **Assignment**             | **Points**    | **Grade** | **Evidence** |
@@ -355,4 +385,4 @@ while (System.currentTimeMillis() - startTime < duration) {
 
 ## Closing Remarks
 
-Overall, I feel like this Sprint 1 was very challenging for me in the sense that I knew I had to improve on soft skills. I tried to do this by talking to the class as I would explain Java to a friend as oposed to how I would explain Java in a job interview. 
+Overall, I feel like this Sprint 1 was very challenging for me in the sense that I knew I had to improve on soft skills. I tried to do this by talking to the class as I would explain Java to a friend as opposed to how I would explain Java in a job interview. 
