@@ -8,11 +8,11 @@ hide: true
 # Hi, I'm Shuban 👋
 
 <h2 style="text-align: left;">Interests</h2>
-<p style="text-align: left;"> - 🤖 Robotics<p>
-<p style="text-align: left;"> - 🔐 Cybersecurity<p>
-<p style="text-align: left;"> - 🖥️ Socket Programming<p>
-<p style="text-align: left;"> - 💥 Binary Exploitation<p>
-<p style="text-align: left;"> - 🪐Simulations<p>
+<p style="text-align: left;"> + 🤖 Robotics<p>
+<p style="text-align: left;"> + 🔐 Cybersecurity<p>
+<p style="text-align: left;"> + 🖥️ Socket Programming<p>
+<p style="text-align: left;"> + 💥 Binary Exploitation<p>
+<p style="text-align: left;"> + 🪐Simulations<p>
 
 <div style="text-align: left;">
 
