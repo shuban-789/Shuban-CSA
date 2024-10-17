@@ -7,6 +7,8 @@ hide: true
 
 # Hi, I'm Shuban 👋
 
+<img align="center" src="https://go-skill-icons.vercel.app/api/icons?i=py,go,c,rust,java,docker,fastapi,vscode,goland,androidstudio,bash,linux,aws,pytorch,tensorflow" />
+
 <h2 style="text-align: left;">Interests</h2>
 <p style="text-align: left;"> + 🤖 Robotics<p>
 <p style="text-align: left;"> + 🔐 Cybersecurity<p>
