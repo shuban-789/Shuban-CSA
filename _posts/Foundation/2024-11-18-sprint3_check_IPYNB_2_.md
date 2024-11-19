@@ -255,7 +255,7 @@ Explanation: If the value of n is 2 or less in the original call to the method m
 
 ### Question 29
 
-![image-7.png](attachment:image-7.png)
+![i7](<Screenshot 2024-11-19 091908.png>)
 
 Explanation: This will print `4, 16, 64` since `k` is assigned to the value of `k * 4` for each iteration.
 
@@ -363,7 +363,7 @@ public static void whatsItDo(String str)
 
 What is printed as a result of the call `whatsItDo("WATCH")`
 
-![image-8.png](attachment:image-8.png)
+![i8](<Screenshot 2024-11-19 092957.png>)
 
 Explanation: This would be the output if `System.out.println(temp)` was before the recursive call to `whatsItDo(temp)`. When the recursive call `whatsItDo(temp)` is executed, the current sequence of statements are paused
 
