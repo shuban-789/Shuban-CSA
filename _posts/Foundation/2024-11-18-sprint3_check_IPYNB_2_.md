@@ -76,7 +76,9 @@ public class CalendarEvent {
 
 - Half of my backend work is done in my personal repo called calendar_backend, and the other half is done in Grading_CSA_Backend
 
-![s3image3](img1.png)
+![s3image3](/_notebooks/Foundation/img1.png)
+
+<img src="img1.png" alt="image1" width="500" height="600">
 
 ![s3image4](<Screenshot 2024-11-18 234727.png>)
 
