@@ -11,7 +11,9 @@ comments: True
 ⭐ Section 1: Accomplishments (30 seconds total)
 
 1️⃣ Contributions to CSA Synergy (15 seconds)
+
 2️⃣ Memories from night at the museum (5 seconds)
+
 3️⃣ Soft Skills (10 seconds)
 
 ⭐ Section 1: Night at the Museum (30 seconds total)
