@@ -369,5 +369,12 @@ Explanation: This would be the output if `System.out.println(temp)` was before t
 
 ### Closing remarks
 
+Topics to study:
+- ➰ Recursion
+- ☕ Java specific concepts
+- 🏛️ Constructors
 
+Strategies to try:
+- 📄 Using paper during the exam instead of computing in my head
+- ⏰ Making use of my full 2 hours
 
