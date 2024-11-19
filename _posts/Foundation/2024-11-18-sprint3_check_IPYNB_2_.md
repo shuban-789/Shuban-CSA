@@ -430,3 +430,15 @@ Strategies to try:
 - 📄 Using paper during the exam instead of computing in my head
 - ⏰ Making use of my full 2 hours
 
+Strengths:
+- Iteration
+- Summation
+- Concatonation
+
+Weaknesses:
+- Visualizing code in my head, I should use paper
+- Recursion
+- "I, II, III" questions
+- Java only questions
+
+I reviewed my MCQ with Jon, Eric, and Akhil yesterday. Out of all that, I had trouble understanding question 34
