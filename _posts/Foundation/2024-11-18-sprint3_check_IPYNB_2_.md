@@ -41,9 +41,9 @@ comments: True
 
 ## Memories
 
-![s3image5](attachment:image-5.png)
+![i5](image-2.png)
 
-![s3image4](attachment:image-6.png)
+![i6](image-3.png)
 
 ## Soft Skills
 
