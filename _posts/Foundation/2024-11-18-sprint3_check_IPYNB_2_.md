@@ -28,16 +28,16 @@ comments: True
 
 - Half of my backend work is done in my personal repo called calendar_backend, and the other half is done in Grading_CSA_Backend
 
-![s3image3](attachment:image-3.png)
+![s3image3](<Screenshot 2024-11-18 234642.png>)
 
-![s3image4](attachment:image-4.png)
+![s3image4](<Screenshot 2024-11-18 234727.png>)
 
 
 - Half of my frontend work is done in my personal repo called calendar_frontend_debug, and the other half is done in Grading_CSA_Frontend
 
-![s3image1](attachment:image.png)
+![s3image1](<Screenshot 2024-11-18 233953.png>)
 
-![s3image2](attachment:image-2.png)
+![s3image2](<Screenshot 2024-11-18 234146.png>)
 
 ## Memories
 
