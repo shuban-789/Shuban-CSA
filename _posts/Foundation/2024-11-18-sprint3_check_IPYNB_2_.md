@@ -78,24 +78,20 @@ public class CalendarEvent {
 
 - Half of my backend work is done in my personal repo called calendar_backend, and the other half is done in Grading_CSA_Backend
 
-![s3image3](/_notebooks/Foundation/img1.png)
+![s3image3](https://raw.githubusercontent.com/shuban-789/Markdown-images/refs/heads/main/Screenshot%202024-11-18%20234727.png)
 
-<img src="img1.png" alt="image1" width="500" height="600">
-
-![s3image4](<Screenshot 2024-11-18 234727.png>)
+![s3image4](https://raw.githubusercontent.com/shuban-789/Markdown-images/refs/heads/main/Screenshot%202024-11-18%20234642.png)
 
 
 - Half of my frontend work is done in my personal repo called calendar_frontend_debug, and the other half is done in Grading_CSA_Frontend
 
-![s3image1](<Screenshot 2024-11-18 233953.png>)
+![s3image1](https://raw.githubusercontent.com/shuban-789/Markdown-images/refs/heads/main/Screenshot%202024-11-18%20234146.png)
 
-![s3image2](<Screenshot 2024-11-18 234146.png>)
+![s3image2](https://raw.githubusercontent.com/shuban-789/Markdown-images/refs/heads/main/Screenshot%202024-11-18%20233953.png)
 
 ## Memories
 
-![i5](image-2.png)
-
-![i6](image-3.png)
+![mem](https://raw.githubusercontent.com/shuban-789/Markdown-images/refs/heads/main/Screenshot%202024-11-19%20112524.png)
 
 ## Soft Skills
 
@@ -307,7 +303,7 @@ Explanation: If the value of n is 2 or less in the original call to the method m
 
 ### Question 29
 
-![i7](<Screenshot 2024-11-19 091908.png>)
+![i7](https://raw.githubusercontent.com/shuban-789/Markdown-images/refs/heads/main/Screenshot%202024-11-19%20091908.png)
 
 Explanation: This will print `4, 16, 64` since `k` is assigned to the value of `k * 4` for each iteration.
 
@@ -415,7 +411,7 @@ public static void whatsItDo(String str)
 
 What is printed as a result of the call `whatsItDo("WATCH")`
 
-![i8](<Screenshot 2024-11-19 092957.png>)
+![i8](https://raw.githubusercontent.com/shuban-789/Markdown-images/refs/heads/main/Screenshot%202024-11-19%20092957.png)
 
 Explanation: This would be the output if `System.out.println(temp)` was before the recursive call to `whatsItDo(temp)`. When the recursive call `whatsItDo(temp)` is executed, the current sequence of statements are paused
 
