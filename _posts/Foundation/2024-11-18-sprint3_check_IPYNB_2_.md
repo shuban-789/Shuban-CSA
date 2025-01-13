@@ -438,3 +438,85 @@ Weaknesses:
 - Java only questions
 
 I reviewed my MCQ with Jon, Eric, and Akhil yesterday. Out of all that, I had trouble understanding question 34
+
+
+```Java
+public class Point
+{
+    private double x;
+    private double y;
+
+    public Point()
+    {
+        x = 0;
+        y = 0;
+    }
+
+    public Point(double a, double b)
+    {
+        x = a;
+        y = b;
+    }
+}
+
+public class Circle
+{
+    private Point center;
+    private double radius;
+
+    public Circle(double a, double b, double r)
+    {
+        center = new Point(a, b);
+        radius = r;
+    }
+}
+```
+
+
+```Java
+public class Point
+{
+    private double x;
+    private double y;
+
+    public Point()
+    {
+        x = 0;
+        y = 0;
+    }
+
+    public Point(double a, double b)
+    {
+        x = a;
+        y = b;
+    }
+}
+
+public class Circle
+{
+    private Point center;
+    private double radius;
+
+    public Circle(double a, double b, double r)
+    {
+        center = new Point();
+        center.x = a;
+        center.y = b;
+        radius = r;
+    }
+}
+```
+
+
+    |           center.x = a;
+
+    x has private access in Point
+
+    
+
+    |           center.y = b;
+
+    y has private access in Point
+
+    
+
