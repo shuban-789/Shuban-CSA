@@ -440,7 +440,7 @@ Weaknesses:
 I reviewed my MCQ with Jon, Eric, and Akhil yesterday. Out of all that, I had trouble understanding question 34
 
 
-```Java
+```java
 public class Point
 {
     private double x;
@@ -473,7 +473,7 @@ public class Circle
 ```
 
 
-```Java
+```java
 public class Point
 {
     private double x;
