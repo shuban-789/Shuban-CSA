@@ -35,7 +35,7 @@ permalink: /csa/p3-2darrays4
 	•	At least one row exists in the array.
 
 
-```Java
+```java
 public static boolean isLatin(int[][] square) {
     int[] firstRow = square[0];
     
