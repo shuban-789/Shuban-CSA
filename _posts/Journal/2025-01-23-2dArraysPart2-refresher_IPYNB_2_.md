@@ -2,7 +2,6 @@
 layout: post
 comments: True
 title: Period 3 2D Arrays Pt 2 - Refresher
-menu: nav/CSA_Units/frqs/per3-2Darrays-pt2.html
 permalink: csa/frqs/p3/2darrays2/refresher
 ---
 
