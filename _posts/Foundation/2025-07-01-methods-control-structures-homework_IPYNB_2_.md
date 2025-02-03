@@ -2,7 +2,6 @@
 layout: post
 title: Homework
 categories: ['AP CSA']
-menu: nav/CSA_Units/frqs/methods_per3.html
 permalink: /methods_per3/homework
 ---
 
