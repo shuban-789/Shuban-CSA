@@ -4,7 +4,6 @@ comments: True
 type: issues
 title: ArrayLists - Homework
 categories: ['AP CSA']
-menu: nav/FRQ_teach/p1-arraylists.html
 permalink: /csa/p1-frq-arraylists/homework
 ---
 

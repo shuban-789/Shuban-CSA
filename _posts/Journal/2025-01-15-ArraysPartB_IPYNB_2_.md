@@ -4,7 +4,6 @@ comments: True
 title: 2D Arrays
 categories: ['AP CSA']
 courses: {'csa': {'week': 17}}
-menu: nav/CSA_Units/frqs/per3-2Darrays.html
 permalink: /csa/p3-2darrays4
 ---
 
