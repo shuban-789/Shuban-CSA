@@ -6,7 +6,7 @@ type: issues
 comments: True
 ---
 
-<img src="{{ site.baseurl }}/_posts/Journal/panel.png" alt="image">
+<img src="{{ site.baseurl }}/assets/panel.png" alt="image">
 
 
 # 🎓 Insights from First-Year College Computer Science Students  
