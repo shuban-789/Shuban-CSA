@@ -13,18 +13,18 @@ comments: True
 ## 🔹 What You’ll Learn  
 
 ### 🎯 College Experience  
-- 🏫 **CS Course Load**: Expectations vs. reality of coursework.  
+- 🏫 **CS Course Load**: Expectations vs. reality of coursework. Flowcharts are important!
 - ⏳ **Time Management**: Balancing classes, coding projects, and social life.  
-- 🤖 **CS Clubs & Hackathons**: Why you should participate.  
+- 🤖 **CS Clubs & Hackathons**: Participate to network and build skills.  
 - 🛠️ **Hands-on Projects**: The importance of building side projects.  
-- 📚 **Study Strategies**: Best ways to learn complex CS topics.  
+- 📚 **Study Strategies**: Best ways to learn complex CS topics is to make diagrams and flowcharts while understanding.   
 - 🔄 **Adjusting to Independence**: Self-learning vs. structured high school courses.  
 
 ### 🚀 Tips for High School CS Aspirants  
 | Topic                     | Key Takeaways 🚀 |
 |---------------------------|-----------------|
-| **Coding Experience**      | Learn Python, Java, or C++ early. Build projects! |
-| **Math & Logic**          | Strengthen problem-solving with discrete math & algorithms. |
+| **Coding Experience**      | Build projects! Make sure projects are visible to companies |
+| **Math & Logic**          | Strengthen problem-solving with discrete math & algorithms. Discrete math is a hard class |
 | **Personal Projects**      | Start open-source contributions or personal repositories. |
 | **Competitive Programming** | Try LeetCode, Codeforces, or USACO for a challenge. |
 | **AP & College Prep**     | Take AP CS, but don’t rely on it entirely. CS in college is different! |
