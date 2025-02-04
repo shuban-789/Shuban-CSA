@@ -1,9 +1,9 @@
 ---
 layout: post
 title: Panel
-description: Panel
+description: Panel issue
 type: issues
-comments: True
+comments: true
 ---
 
 ![e](image-5.png)
