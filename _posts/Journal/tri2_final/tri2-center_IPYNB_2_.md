@@ -7,7 +7,7 @@ title: T2F - Center
 # 5 Things
 
 ## 1️⃣ Fullstack Feature:  Media Bias Game (0.94/1)
-![media](image-10.png)
+![media](/CSA/Shuban-CSA/_posts/Journal/tri2_final/image-10.png)
 
 ## 2️⃣ Analytics (0.94/1)
 ![analytics1](image-11.png)
