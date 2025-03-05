@@ -113,6 +113,8 @@ Although I collaborated with Profe LeCakes and other students, I still felt like
 
 I could have possibly maybe asked another person who may have been unavailable to help out with the media bias game and gotten more collaboration experience.
 
+![eee](image-17.png)
+
 # Final Evalution
 
 | Criteria                               | Points Possible | Points Earned | My Reflection |
