@@ -33,7 +33,7 @@ I wanted to finish my burndown lists even after night at the museum. I think thi
 
 # MCQ + FRQ
 
-- 📝 [2015 Practice Exam FRQ Reflection](https://shuban-789.github.io/Shuban-CSA/2025/03/04/mcq_IPYNB_2_.html)
+- 📝 [2015 Practice Exam FRQ Reflection](https://shuban-789.github.io/Shuban-CSA/2025/03/04/frq_IPYNB_2_.html)
 - 📝 [2015 Practice Exam MCQ Reflection](https://shuban-789.github.io/Shuban-CSA/2025/03/04/mcq_IPYNB_2_.html)
 
 # Project Debrief
