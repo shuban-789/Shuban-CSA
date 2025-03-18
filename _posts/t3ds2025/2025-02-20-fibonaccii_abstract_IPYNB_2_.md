@@ -342,20 +342,21 @@ Fibonacci2.main(null);
 
 
 ```Java
-/* Base Fibonacci class --> Helps visualize fibo*/
 abstract class Fibo {
     protected int nth;
     protected String name;
 
     public Fibo(int nth) {
         this.nth = nth;
+        long startTime = System.nanoTime();
         calc();
+        long endTime = System.nanoTime();
+        System.out.println("\n" + name + " Execution Time: " + (endTime - startTime) + " ns");
     }
 
     protected abstract void calc();
 
     protected void setData(long result) {
-
         System.out.print(result + " ");
     }
 }
@@ -409,7 +410,6 @@ class FiboFastDoubling extends Fibo {
                 b = nextA;
             }
         }
-
         this.setData(a); // Store the final result
     }
 }
@@ -444,8 +444,6 @@ class FibonacciTest {
         System.out.println("\nAverage Execution Time: " + avgTime + " ns");
     }
 }
-
-FibonacciTest.main(null);
 ```
 
     
