@@ -23,7 +23,7 @@ comments: false
             align-items: center;
             margin-top: 40px;
         }
-        .numbers, .array {
+        .array {
             display: flex;
             gap: 20px;
             margin: 20px;
@@ -55,11 +55,17 @@ comments: false
             border: none;
             cursor: pointer;
         }
+        .instructions {
+            margin-top: 20px;
+            text-align: left;
+            width: 80%;
+            font-size: 1em;
+        }
     </style>
 </head>
 <body>
     <div class="container">
-        <div class="numbers" id="numbers" ondragover="event.preventDefault()" ondrop="removeElement(event)">
+        <div class="array" id="array" ondragover="event.preventDefault()" ondrop="rearrangeElement(event)">
             <div class="draggable" draggable="true" ondragstart="dragStart(event)">5</div>
             <div class="draggable" draggable="true" ondragstart="dragStart(event)">2</div>
             <div class="draggable" draggable="true" ondragstart="dragStart(event)">8</div>
@@ -67,32 +73,30 @@ comments: false
             <div class="draggable" draggable="true" ondragstart="dragStart(event)">4</div>
             <div class="draggable" draggable="true" ondragstart="dragStart(event)">7</div>
         </div>
-        <div class="array" id="array" ondragover="event.preventDefault()" ondrop="rearrangeElement(event)"></div>
         <p id="status">Status: Unsorted</p>
         <button onclick="resetArray()">Reset</button>
     </div>
 
+    <div class="instructions">
+        <h2>Manual Sorting Instructions</h2>
+        <h3>Insertion Sort:</h3>
+        <ol>
+            <li>For every element in the array, compare it to its left element (if not applicabble, move on)</li>
+            <li>Compare it with the elements before it and shift larger elements to the right.</li>
+            <li>Insert the selected element in its correct position. (Keep swapping UNTIL the element is greater than its left part. This creates an "inserting" effect)</li>
+            <li>Repeat the process for the next element until the entire array is sorted.</li>
+        </ol>
+        <h3>Selection Sort:</h3>
+        <ol>
+            <li>Start at the first position and declare it as the current minimum.</li>
+            <li>Iterate through the rest of the array to find a smaller element.</li>
+            <li>If a smaller element is found, update the current minimum.</li>
+            <li>Swap the current minimum with the element at the first position.</li>
+            <li>Move to the next position and repeat the process until the entire array is sorted.</li>
+        </ol>
+    </div>
+
     <script>
-        function addElement(event) {
-            event.preventDefault();
-            const number = event.dataTransfer.getData("text");
-            const element = document.querySelector(`.draggable[data-value='${number}']`);
-            if (element) {
-                document.getElementById("array").appendChild(element);
-                checkSorted();
-            }
-        }
-
-        function removeElement(event) {
-            event.preventDefault();
-            const number = event.dataTransfer.getData("text");
-            const element = document.querySelector(`.draggable[data-value='${number}']`);
-            if (element) {
-                document.getElementById("numbers").appendChild(element);
-                checkSorted();
-            }
-        }
-
         function rearrangeElement(event) {
             event.preventDefault();
             const draggedElement = document.querySelector('.dragging');
@@ -151,15 +155,22 @@ comments: false
         }
 
         function resetArray() {
-            const numbersContainer = document.getElementById("numbers");
             const arrayContainer = document.getElementById("array");
-            numbersContainer.append(...arrayContainer.children);
+            arrayContainer.innerHTML = `
+                <div class="draggable" draggable="true" ondragstart="dragStart(event)">5</div>
+                <div class="draggable" draggable="true" ondragstart="dragStart(event)">2</div>
+                <div class="draggable" draggable="true" ondragstart="dragStart(event)">8</div>
+                <div class="draggable" draggable="true" ondragstart="dragStart(event)">1</div>
+                <div class="draggable" draggable="true" ondragstart="dragStart(event)">4</div>
+                <div class="draggable" draggable="true" ondragstart="dragStart(event)">7</div>`;
             document.getElementById("status").innerText = "Status: Unsorted";
             arrayContainer.classList.remove("sorted", "unsorted");
         }
     </script>
 </body>
 </html>
+
+
 
 
 
