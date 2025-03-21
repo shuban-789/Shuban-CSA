@@ -5,7 +5,6 @@ layout: post
 description: Continue with Classes, Queues, performing Sorts and BigO analysis on your algorithm(s).
 author: John Mortensen
 type: ccc
-courses: {'csa': {'week': 25}}
 ---
 
 ## Reverse Polish Notation (RPN) & Postfix Evaluation  
