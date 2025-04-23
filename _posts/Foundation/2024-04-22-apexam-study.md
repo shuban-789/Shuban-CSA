@@ -63,6 +63,8 @@ Reflection: I think from this specific FRQ problem what I should have done was t
 
 ## MCQ Reflection
 
-I think I was struggling a lot on the irertion and the for loop questions. I think I could have definitely improved my strategy on this
+I think I was struggling a lot on the irertion and the for loop questions. I think I could have definitely improved my strategy on this.
 
 ![Image](https://github.com/user-attachments/assets/e4f02274-62a2-489a-a727-4f73edde72dd)
+
+There was a question which concerned iteration from a multiplied produce (m*n) which might I could have one better on.
