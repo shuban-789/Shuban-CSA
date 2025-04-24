@@ -69,6 +69,6 @@ I think I was struggling a lot on the irertion and the for loop questions. I thi
 
 There was a question which concerned iteration from a multiplied produce (m*n) which might I could have one better on. I also did the MCQ in 30 minutes so that was not very good.
 
-[2020 Practice Exam MCQ Reflection](https://shuban-789.github.io/Shuban-CSA/2025/04/22/mcq_IPYNB_2_.html)
+[2020 Practice Exam MCQ Reflection](https://shuban-789.github.io/Shuban-CSA/2025/04/24/mcq_IPYNB_2_.html)
 
 ![Image](https://github.com/user-attachments/assets/bdeea6ca-e697-42d4-8b86-71cfcbca7edc)
