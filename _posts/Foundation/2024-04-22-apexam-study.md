@@ -7,16 +7,16 @@ comments: True
 ---
 
 ## 4 FRQs (Reviewed) 📝
-- [ ] Arrays
+- [x] Arrays
 - [ ] Classes
 - [ ] 2D Arrays
-- [ ] Methods and Control Structures
+- [x] Methods and Control Structures
 
 ## Units Covered by me for full deep dive review 🌊
 
-- [ ] Unit 1: Datatypes and Variables
-- [ ] Unit 2: Using Classes and Methods
-- [ ] Unit 3: Booleans and if-else
+- [x] Unit 1: Datatypes and Variables
+- [x] Unit 2: Using Classes and Methods
+- [x] Unit 3: Booleans and if-else
 - [ ] Unit 4: Iteration
 - [ ] Unit 5: Writing Classes
 - [ ] Unit 6: Array
@@ -59,7 +59,7 @@ public static boolean isDiverse(int[][] arr2D) {
 }
 ```
 
-Reflection: I think from this specific FRQ problem what I should have done was thought of a way to return the number of unique elements in an array. I could have done this easily through swapping
+Reflection: I think from this specific FRQ problem what I should have done was thought of a way to return the number of unique elements in an array. I could have done this easily through swapping. I used this stragegy for Two Sum
 
 ## MCQ Reflection
 
