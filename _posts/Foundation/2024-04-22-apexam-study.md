@@ -67,4 +67,6 @@ I think I was struggling a lot on the irertion and the for loop questions. I thi
 
 ![Image](https://github.com/user-attachments/assets/e4f02274-62a2-489a-a727-4f73edde72dd)
 
-There was a question which concerned iteration from a multiplied produce (m*n) which might I could have one better on.
+There was a question which concerned iteration from a multiplied produce (m*n) which might I could have one better on. I also did the MCQ in 30 minutes so that was not very good.
+
+[2015 Practice Exam MCQ Reflection](https://shuban-789.github.io/Shuban-CSA/2025/03/04/mcq_IPYNB_2_.html)
