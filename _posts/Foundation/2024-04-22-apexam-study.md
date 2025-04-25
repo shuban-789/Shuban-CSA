@@ -38,6 +38,8 @@ puiblic static int arraySum(int[] arr) {
 }
 ```
 
+Correct
+
 Part B:
 ```java
 public static int[] rowSums(int[][] arr2D) {
@@ -49,6 +51,8 @@ public static int[] rowSums(int[][] arr2D) {
 }
 ```
 
+Correct
+
 Part C:
 ```java
 public static boolean isDiverse(int[][] arr2D) {
@@ -58,6 +62,23 @@ public static boolean isDiverse(int[][] arr2D) {
     }
 }
 ```
+
+Correction
+```java
+public static boolean isDiverse(int[][] arr2D) {
+    int[] rowsums = rowSums(arr2D);
+    for (int i = 0; i < rowsums.length; i++) {
+        for (int j = i + 1; j < rowsums.length; j++) {
+            if (rowsums[i] == rowsums[j]) {
+                return false;
+            }
+        }
+    }
+    return true;
+}
+```
+![Image](https://github.com/user-attachments/assets/a1136f33-fead-4ee7-96c3-b1341f095eea)
+
 
 Reflection: I think from this specific FRQ problem what I should have done was thought of a way to return the number of unique elements in an array. I could have done this easily through swapping. I used this stragegy for Two Sum
 
@@ -69,6 +90,6 @@ I think I was struggling a lot on the irertion and the for loop questions. I thi
 
 There was a question which concerned iteration from a multiplied produce (m*n) which might I could have one better on. I also did the MCQ in 30 minutes so that was not very good.
 
-[2020 Practice Exam MCQ Reflection](https://shuban-789.github.io/Shuban-CSA/2025/04/24/mcq_IPYNB_2_.html)
+
 
 ![Image](https://github.com/user-attachments/assets/bdeea6ca-e697-42d4-8b86-71cfcbca7edc)
