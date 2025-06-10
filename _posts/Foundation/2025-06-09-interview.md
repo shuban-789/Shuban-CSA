@@ -89,7 +89,6 @@ I focused on three core aspects during my demo:
 
 - Does this work with real money?
 
-
 Overall, presenting at Night at the Museum was not just an opportunity to showcase a project—it was a chance to spark conversations about energy, economics, and ethics in technology. Seeing people connect to the system I designed, across ages and backgrounds, made every hour I spent planning dependencies and balancing game mechanics completely worth it.
 
 *** Mine Mine Mine. ***
@@ -100,7 +99,7 @@ Overall, presenting at Night at the Museum was not just an opportunity to showca
 
 #### Energy
 
-🔋 Energy Portfolio
+##### 🔋 Energy Portfolio
 Designed a dynamic system of power sources with:
 
 Variable cost per kWh
@@ -112,8 +111,7 @@ Grid Power – cheap but unstable
 Renewables – stable but capped
 Premium Sources – costly but high output
 
-🔧 GPU & Energy Integration
-Each GPU has:
+##### 🔧 GPU & Energy Integration Each GPU has:
 
 - Hashrate
 - Power draw (watts)
@@ -123,13 +121,27 @@ Each GPU has:
 - Cooling requirements
 - Overall profit
 
-🏪 Energy Plan Shop
+##### 🏪 Energy Plan Shop
 
 Built a shop system with:
-
 - Unlockable energy plans
 - Side-by-side comparisons
 - Tooltips showing impact on performance
 - Made energy a strategic resource, not just background math
 
 ## Statistics and Commit Proof
+
+Key Commits for Bug Fixes and Implementation:
+
+[Key Bug Fix 1](https://github.com/CSA-Coders-2025/CSA_Combined_Frontend_Fork/commit/823c33444d830d44c7344f679b88965d00c2591e)
+[Key Bug Fix 2](https://github.com/CSA-Coders-2025/fortune_finders/commit/9c27117b09fc827f01712d26764bbcf1e2c2a859)
+[Key Implementation 1](https://github.com/CSA-Coders-2025/CSA_Combined_Frontend_Fork/commit/5a923f5ed4a3344ad7af64f21b69bd91ad12047f)
+[Key Implementation 2](https://github.com/CSA-Coders-2025/CSA_Combined_Frontend_Fork/commit/9f998b4550340ce8ec83b337e131be46b0b73d85)
+
+![Image](https://github.com/user-attachments/assets/6ebb53bb-fe9e-43a1-9a30-ca88643e6bd0)
+
+## Grade Predictor
+
+![Image](https://github.com/user-attachments/assets/3b6e9826-cf8d-4cc7-bfe8-f067ddc257e4)
+
+![Image](https://github.com/user-attachments/assets/2c7e01dc-895d-4b35-ac6d-e21a2261d2d9)
