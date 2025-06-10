@@ -140,6 +140,14 @@ Key Commits for Bug Fixes and Implementation:
 
 ![Image](https://github.com/user-attachments/assets/6ebb53bb-fe9e-43a1-9a30-ca88643e6bd0)
 
+## Homeworks
+
+[Calculator](https://shuban-789.github.io/Shuban-CSA/2025/03/17/calculatorenactment_IPYNB_2_.html)
+[Merge](https://shuban-789.github.io/Shuban-CSA/2025/02/21/java-collections_IPYNB_2_.html)
+[Collectibles](https://shuban-789.github.io/Shuban-CSA/2025/02/21/java-collections_IPYNB_2_.html)
+[Graphs](https://github.com/shuban-789/Shuban-CSA/issues/28)
+[AIML](https://github.com/shuban-789/Shuban-CSA/issues/29)
+
 ## Grade Predictor
 
 ![Image](https://github.com/user-attachments/assets/3b6e9826-cf8d-4cc7-bfe8-f067ddc257e4)
